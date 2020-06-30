@@ -1,0 +1,99 @@
+<!-- Robert Doult-->
+<!-- CSCI-1145-B02-32397-AU-2019: HTML (BLEND 32397)-->
+<!-- CSCI1145: Project 8 20191120-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Active Ibiza</title>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta name="description" content="To contact Active Ibiza. We do our best to ensure we answer all your questions.
+			You deserve to have the holiday that meets all expectations.">
+		<meta name="keywords" content="Ibiza, contact, holiday, vacation">
+		<meta name="author" content="Active Ibiza">
+		<link rel="stylesheet" href="stylesheet.css">
+		<div class="header">
+			<div class="image"></div>
+			<div class="text"><strong>Contact Us</strong></div>
+		</div>
+	</head>
+	<body id="wrapper">
+		<style>
+		</style>
+		<header>
+			<div id="anchor1">
+		</header>
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" class="active">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="activity.html">Activities</a>
+			<a href="review.html">Reviews</a>
+			<a href="contact.html">Contact</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+		<main>
+			<h1>Feel free to contact us!</h1>
+			<!-- Contact Container -->
+			<div class="container">
+				<form action="/action_page.php">
+					<div class="row">
+						<div class="col-25">
+							<label for="fname">First Name</label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="fname" name="firstname" placeholder="Your name..">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="lname">Last Name</label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="subject">Subject</label>
+						</div>
+						<div class="col-75">
+							<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+					</div>
+				</form>
+			</div>
+			<br>
+			<div class="div1">Telephone:
+				<br>Ibiza +34 680 504 351 
+				<br>UK +44 (0) 2071939863 
+				<br>Email:<a href = "mailto: rdoult@student.cscc.edu">info@activeibiza.com</a>
+				<br>Address: Apt 112, Correos San Llorenc, 07812 Ibiza, Illes Balears, Spain
+			</div>
+		</main>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="clearfix">
+				<div>
+					<small>
+					Copyright &copy; 2019 Active Ibiza. All Rights Reserved.<a href="privacy.html">Privacy policy</a>
+					</small>
+					<a href="#anchor1" style="float: right">&uarr; Back to the top &uarr;</a>
+				</div>
+		</footer>
+		</div>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+		</script>
+	</body>
+</html>

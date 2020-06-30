@@ -1,0 +1,66 @@
+<!-- Robert Doult-->
+<!-- CSCI-1145-B02-32397-AU-2019: HTML (BLEND 32397)-->
+<!-- CSCI1145: Project 8 20191120-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Active Ibiza</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Active Ibiza knows you are the VIP.  The island can give you everything you want from nightclubs
+			and parties or peaceful bliss. Begin the day with yoga end a your day partying.">
+		<meta name="keywords" content="Ibiza, lifestyle, active, drink, partying">
+		<meta name="author" content="Active Ibiza">
+		<link rel="stylesheet" href="stylesheet.css">
+		<div class="header">
+			<div class="image"></div>
+			<div class="text"><strong>Another side of the island</strong></div>
+		</div>
+	</head>
+	<body id="wrapper">
+		<style>
+		</style>
+		<!-- The video -->
+		<video autoplay muted loop id="myVideo">
+			<source src="images/Active_Ibiza.mp4" type="video/mp4">
+		</video>
+		<!-- Optional: some overlay text to describe the video -->
+		<div class="index_content">
+		<h1>Active Ibiza Another side of the island</h1>
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" class="active">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="activity.html">Activities</a>
+			<a href="review.html">Reviews</a>
+			<a href="contact.html">Contact</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+		<div>Telephone:
+			<br>Ibiza +34 680 504 351 
+			<br>UK +44 (0) 2071939863 
+			<br>Email:<a href = "mailto: rdoult@student.cscc.edu">info@activeibiza.com</a>
+		</div>
+		<main>
+		</main>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="clearfix">
+				<div>
+					<small>
+					Copyright &copy; 2019 Active Ibiza. All Rights Reserved.<a href="privacy.html">Privacy policy</a>
+					</small>
+					<a href="#anchor1" style="float: right">&uarr; Back to the top &uarr;</a>
+				</div>
+		</footer>
+		</div>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "topnav";
+			  }
+			}
+		</script>
+	</body>
+</html>
